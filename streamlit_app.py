@@ -6,8 +6,8 @@ import numpy as np
 import io
 import base64
 import pickle
-import sklearn
-from sklearn.metrics import precision_recall_curve, classification_report, confusion_matrix, ConfusionMatrixDisplay
+import scikit-learn
+from scikit-learn.metrics import precision_recall_curve, classification_report, confusion_matrix, ConfusionMatrixDisplay
 import seaborn as sns
 import matplotlib.pyplot as plt
 import shap
